@@ -1,6 +1,8 @@
 # Terminal Portfolio 💻🚀
 
 ¡Bienvenido a mi portafolio interactivo al estilo de una terminal 🖥️ Este proyecto te permite explorar mis habilidades, proyectos y experiencia de una manera única e interesante. 🎨
+![Sitio web](https://github.com/FeliPrado31/porfolio/assets/55117998/a6fb9b02-a2df-49d7-af35-e46d5ee16d4d)
+
 
 ## Características 🌟
 
