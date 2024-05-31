@@ -3,14 +3,13 @@
 ¡Bienvenido a mi portafolio interactivo al estilo de una terminal 🖥️ Este proyecto te permite explorar mis habilidades, proyectos y experiencia de una manera única e interesante. 🎨
 ![Sitio web](https://github.com/FeliPrado31/porfolio/assets/55117998/a6fb9b02-a2df-49d7-af35-e46d5ee16d4d)
 
-
 ## Características 🌟
 
-- Diseño minimalista y elegante al estilo de una terminal. 💅
-- Navegación intuitiva a través de comandos de terminal. 🕹️
-- Información detallada sobre mis habilidades y proyectos. 📚
-- Sección de contacto para que puedas llegar a mí. 📩
-- Diseño responsivo para una experiencia óptima en diferentes dispositivos. 📱💻
+- [ ] Diseño minimalista y elegante al estilo de una terminal. 💅
+- [ ] Navegación intuitiva a través de comandos de terminal. 🕹️
+- [ ] Información detallada sobre mis habilidades y proyectos. 📚
+- [ ] Sección de contacto para que puedas llegar a mí. 📩
+- [ ] Diseño responsivo para una experiencia óptima en diferentes dispositivos. 📱💻
 
 ## Tecnologías utilizadas 🛠️
 
@@ -18,6 +17,7 @@
 - Tailwind CSS: una biblioteca de utilidades de CSS para un desarrollo rápido. 💅
 - Iconos personalizados para una experiencia única. 🎨
 - shadcn/ui: componentes de interfaz de usuario personalizados y escalables. 📈
+- TypeScript: un lenguaje de programación tipado que mejora la calidad y mantenibilidad del código. 🔍
 
 ## Estructura del proyecto 🏗️
 
@@ -51,5 +51,6 @@ Si encuentras algún error o tienes sugerencias para mejorar el proyecto, no dud
 - Tailwind CSS por su biblioteca de utilidades de CSS para un desarrollo rápido.
 - lucide-react por sus iconos personalizados ayuda en crear una experiencia única.
 - shadcn/ui por sus componentes de interfaz de usuario personalizados y escalables. 📈
+- TypeScript por mejorar la calidad y mantenibilidad del código. 🔍
 
 ¡Espero que disfrutes explorando mi portafolio 😊 Si tienes alguna pregunta o quieres ponerte en contacto conmigo, no dudes en hacerlo a través de los comandos de la terminal. 📩
