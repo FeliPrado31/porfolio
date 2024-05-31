@@ -5,17 +5,13 @@ import { ClockIcon, BellIcon } from 'lucide-react';
 import Notifications from './Notifications.astro';
 ---
 
-<div
-  class='px-4 py-2 border-t border-gray-800 flex items-center justify-between'
->
+<div class='px-4 py-2 border-gray-800 flex items-center justify-between'>
   <CommandHistory />
   <Button variant='ghost' size='icon'>
     <ClockIcon className='w-4 h-4' />
   </Button>
 </div>
-<div
-  class='px-4 py-2 border-t border-gray-800 flex items-center justify-between'
->
+<div class='px-4 py-2 border-gray-800 flex items-center justify-between'>
   <Notifications />
   <Button variant='ghost' size='icon'>
     <BellIcon className='w-4 h-4' />

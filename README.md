@@ -1,54 +1,53 @@
-# Astro Starter Kit: Basics
+# Terminal Portfolio 💻🚀
 
-```sh
-npm create astro@latest -- --template basics
-```
+¡Bienvenido a mi portafolio interactivo al estilo de una terminal 🖥️ Este proyecto te permite explorar mis habilidades, proyectos y experiencia de una manera única e interesante. 🎨
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Características 🌟
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Diseño minimalista y elegante al estilo de una terminal. 💅
+- Navegación intuitiva a través de comandos de terminal. 🕹️
+- Información detallada sobre mis habilidades y proyectos. 📚
+- Sección de contacto para que puedas llegar a mí. 📩
+- Diseño responsivo para una experiencia óptima en diferentes dispositivos. 📱💻
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Tecnologías utilizadas 🛠️
 
-## 🚀 Project Structure
+- Astro.js: un framework de desarrollo web rápido y modular. 🚀
+- Tailwind CSS: una biblioteca de utilidades de CSS para un desarrollo rápido. 💅
+- Iconos personalizados para una experiencia única. 🎨
+- shadcn/ui: componentes de interfaz de usuario personalizados y escalables. 📈
 
-Inside of your Astro project, you'll see the following folders and files:
+## Estructura del proyecto 🏗️
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+El proyecto sigue una estructura modular basada en componentes reutilizables y escalables, siguiendo los principios SOLID. Los principales componentes son:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- `Terminal`: representa la terminal y contiene los subcomponentes `TerminalHeader` y `TerminalBody`. 💻
+- `CommandsPanel`: muestra una lista de comandos comunes con descripciones. 📋
+- `SidePanel`: contiene los subcomponentes `CommandHistory` y `Notifications`. 📊
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Licencia 📝
 
-Any static assets, like images, can be placed in the `public/` directory.
+Este proyecto utiliza la Licencia Pública General de GNU versión 3 (GPLv3) para proteger su código fuente y garantizar que todo trabajo derivado herede la misma licencia.
 
-## 🧞 Commands
+## Cómo ejecutar el proyecto 🚀
 
-All commands are run from the root of the project, from a terminal:
+1. Clona el repositorio: `git clone https://github.com/FeliPrado31/porfolio` 🌐
+2. Navega al directorio del proyecto: `cd portfolio` 📁
+3. Instala las dependencias: `npm install` ⏳
+4. Inicia el servidor de desarrollo: `npm run dev` 🏃‍♂️
+5. Abre tu navegador y visita `http://localhost:4321/` 🌐
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+¡Y listo ahora puedes explorar mi portafolio interactivo al estilo de una terminal. 🎉
 
-## 👀 Want to learn more?
+## Contribuciones 🤝
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Si encuentras algún error o tienes sugerencias para mejorar el proyecto, no dudes en abrir un issue o enviar un pull request. 🐞🆙️ ¡Todas las contribuciones son bienvenidas 💖
+
+## Agradecimientos 🙏
+
+- Astro.js por su framework de desarrollo web rápido y modular.
+- Tailwind CSS por su biblioteca de utilidades de CSS para un desarrollo rápido.
+- lucide-react por sus iconos personalizados ayuda en crear una experiencia única.
+- shadcn/ui por sus componentes de interfaz de usuario personalizados y escalables. 📈
+
+¡Espero que disfrutes explorando mi portafolio 😊 Si tienes alguna pregunta o quieres ponerte en contacto conmigo, no dudes en hacerlo a través de los comandos de la terminal. 📩
