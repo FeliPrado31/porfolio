@@ -1,0 +1,37 @@
+---
+import '@/styles/global.css';
+
+import Layout from '../layouts/Layout.astro';
+import Terminal from '@/components/Terminal/Terminal.astro';
+import CommandsPanel from '@/components/CommandsPanel/CommandPanel.astro';
+import SidePanel from '@/components/SidePanel/SidePanel.astro';
+---
+
+<Layout title='Welcome to Astro.'>
+  <main>
+    <div class='flex flex-col h-screen bg-gray-950 text-white'>
+      <div class='flex-1 grid grid-cols-[1fr_300px] gap-4 p-4'>
+        <Terminal />
+        <div class='bg-gray-900 rounded-lg overflow-hidden flex flex-col'>
+          <CommandsPanel />
+          <SidePanel />
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  body {
+    font-family: var(--font-inter), sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-inter), sans-serif;
+  }
+</style>

@@ -1,0 +1,24 @@
+---
+import { Button } from '../ui/button';
+import { CopyIcon } from 'lucide-react';
+---
+
+<div
+  class='px-4 py-2 border-b border-gray-800 flex items-center justify-between'
+>
+  <span class='text-sm text-gray-400'>Comandos</span>
+</div>
+<div class='flex-1 p-4 overflow-auto'>
+  <div class='space-y-2'>
+    <div class='flex items-center justify-between'>
+      <div>
+        <span class='font-medium'>ls</span>
+        <span class='text-gray-400'> - Listar archivos y directorios</span>
+      </div>
+      <Button variant='ghost' size='icon'>
+        <CopyIcon className='w-4 h-4' />
+      </Button>
+    </div>
+    <!-- Resto de los comandos -->
+  </div>
+</div>

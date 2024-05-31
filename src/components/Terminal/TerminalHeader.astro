@@ -1,0 +1,20 @@
+---
+import { UserIcon, ClockIcon } from 'lucide-react';
+---
+
+<div
+  class='px-4 py-2 border-b border-gray-800 flex items-center justify-between'
+>
+  <span class='text-sm text-gray-400'>/home/invitado/proyecto</span>
+  <div class='flex items-center gap-2 text-sm text-gray-400'>
+    <UserIcon className='w-4 h-4' />
+    invitado
+    <ClockIcon className='w-4 h-4' />
+    {
+      Intl.DateTimeFormat('default', {
+        hour: 'numeric',
+        minute: 'numeric',
+      }).format(new Date())
+    }
+  </div>
+</div>
